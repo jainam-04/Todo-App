@@ -9,7 +9,7 @@
     <div>
         <th:block th:each="task : ${tasks}">
             <div>
-                <span th:text="${task.title}">Task Title</span>
+                <span th:text="${task.getTitle()}">Task Title</span>
             </div>
         </th:block>
     </div>

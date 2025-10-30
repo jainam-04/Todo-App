@@ -28,13 +28,13 @@ public class TaskController {
         return "redirect:/";
     }
 
-    @DeleteMapping("/{id}/delete")
+    @GetMapping("/{id}/delete")
     public String deleteTask(@PathVariable long id){
         service.deleteTask(id);
         return "redirect:/";
     }
 
-    @PutMapping("/{id}/toggle")
+    @GetMapping("/{id}/toggle")
     public String toggleTask(@PathVariable long id){
         service.toggleTask(id);
         return "redirect:/";

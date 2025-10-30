@@ -5,6 +5,18 @@ This application allows users to create, update, view, and delete todos in a cle
 
 ---
 
+## 📚 Table of Contents
+
+- [🚀 Tech Stack](#-tech-stack)
+- [⚙️ Configuration](#️-configuration)
+- [▶️ How to Run](#️-how-to-run)
+- [💡 Features](#-features)
+- [🧰 Dependencies](#-dependencies)
+- [🖼️ Screenshot](#-screenshot)
+- [👨‍💻 Author](#-author)
+
+---
+
 ## 🚀 Tech Stack
 
 - **Backend:** Spring Boot  
@@ -71,7 +83,7 @@ mvn spring-boot:run
 
 ---
 
-## Screenshot
+## 📸 Screenshot
 
 <img width="1919" height="871" alt="image" src="https://github.com/user-attachments/assets/9c698dbf-8377-45f0-b128-b8af6c336808" />
 
